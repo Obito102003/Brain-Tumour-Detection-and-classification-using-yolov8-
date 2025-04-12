@@ -1,0 +1,13 @@
+path: E:/Brain-Tumor/data/images
+train: E:/Brain-Tumor/data/images/train
+val: E:/Brain-Tumor/data/images/val
+
+nc: 6
+names: ['NO_tumor', 'glioma', 'meningioma-large', 'meningioma-medium', 'meningioma-small', 'pituitary']
+
+roboflow:
+  workspace: project-msoqf
+  project: tumorclassification-mwurm-9d5wu
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/project-msoqf/tumorclassification-mwurm-9d5wu/1
